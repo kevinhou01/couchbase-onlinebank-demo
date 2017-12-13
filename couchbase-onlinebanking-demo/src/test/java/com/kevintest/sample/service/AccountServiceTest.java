@@ -1,4 +1,4 @@
-package com.citi.sample.service;
+package com.kevintest.sample.service;
 
 import static org.junit.Assert.assertTrue;
 

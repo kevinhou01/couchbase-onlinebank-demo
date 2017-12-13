@@ -1,4 +1,4 @@
-package com.citi.sample.repository;
+package com.kevintest.sample.repository;
 
 import static org.junit.Assert.assertTrue;
 

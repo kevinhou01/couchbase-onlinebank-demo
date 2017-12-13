@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 
-<%@ page import="com.citi.sample.domain.*"%>
+<%@ page import="com.kevintest.sample.domain.*"%>
 
 <%
 
