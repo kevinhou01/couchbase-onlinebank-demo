@@ -1,4 +1,4 @@
-package com.citi.sample.controller;
+package com.kevintest.sample.controller;
 
 import java.io.IOException;
 
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.citi.sample.domain.Account;
-import com.citi.sample.domain.State;
-import com.citi.sample.service.AccountService;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
+import com.kevintest.sample.domain.Account;
+import com.kevintest.sample.domain.State;
+import com.kevintest.sample.service.AccountService;
 
 @Controller
 public class AccountWebController {

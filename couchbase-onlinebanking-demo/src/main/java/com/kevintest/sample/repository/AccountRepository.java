@@ -1,12 +1,12 @@
-package com.citi.sample.repository;
+package com.kevintest.sample.repository;
 
 import java.util.List;
 
 import org.springframework.data.couchbase.core.view.View;
 import org.springframework.data.couchbase.repository.CouchbaseRepository;
 
-import com.citi.sample.domain.Account;
 import com.couchbase.client.protocol.views.Query;
+import com.kevintest.sample.domain.Account;
 
 public interface AccountRepository extends CouchbaseRepository<Account, String> {
 

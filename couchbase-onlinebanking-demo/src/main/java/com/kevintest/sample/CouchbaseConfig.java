@@ -1,4 +1,4 @@
-package com.citi.sample;
+package com.kevintest.sample;
 
 import java.util.Arrays;
 import java.util.List;

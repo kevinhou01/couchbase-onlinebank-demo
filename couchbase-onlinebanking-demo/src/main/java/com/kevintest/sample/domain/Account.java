@@ -1,4 +1,4 @@
-package com.citi.sample.domain;
+package com.kevintest.sample.domain;
 
 import java.io.Serializable;
 

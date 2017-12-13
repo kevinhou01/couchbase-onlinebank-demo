@@ -1,4 +1,4 @@
-package com.citi.sample.service;
+package com.kevintest.sample.service;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.citi.sample.domain.Account;
-import com.citi.sample.repository.AccountRepository;
 import com.couchbase.client.protocol.views.Query;
+import com.kevintest.sample.domain.Account;
+import com.kevintest.sample.repository.AccountRepository;
 
 @Component
 @Service

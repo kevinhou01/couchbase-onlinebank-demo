@@ -10,9 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.citi.sample.Application;
-import com.citi.sample.domain.Account;
 import com.couchbase.client.protocol.views.Query;
+import com.kevintest.sample.Application;
+import com.kevintest.sample.domain.Account;
+import com.kevintest.sample.repository.AccountRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
