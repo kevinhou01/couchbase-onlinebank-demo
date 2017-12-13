@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: couchbase-onlinebanking-demo Maven Webapp
-Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: kevin
-Implementation-Vendor-Id: com.sample.couchbase
-Build-Jdk: 1.8.0_131
-Created-By: Maven Integration for Eclipse
-Implementation-Vendor: Pivotal Software, Inc.
-
