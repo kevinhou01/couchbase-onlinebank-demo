@@ -1,0 +1,25 @@
+#wizard {border:5px solid #6088C7;font-size:12px;height:400px;margin:20px auto;width:900px;overflow:hidden;position:relative;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#wizard .items{width:10000px; clear:both; position:absolute;}
+#wizard .right{float:right;}
+#wizard #status{height:35px;background:#6088C7;padding-left:5px !important;}
+#status li{float:left;color:#ffffff;padding:10px 20px;}
+#status li.active{background-color:#6E8BFF;font-weight:normal;}
+.input{width:200px; height:25px; margin:2px auto; line-height:20px; border:1px solid #d3d3d3; padding:2px;font-size:12px;}
+.page{padding:0px 30px;width:700px;float:left;margin-left:100px;margin-top:20px;margin-right:100px}
+.page h3{height:42px; font-size:16px; border-bottom:1px dotted #714101; margin-bottom:5px; padding-bottom:5px;margin-right:100px}
+.page h3 em{font-size:12px; font-weight:500; font-style:normal}
+.page p{line-height:16px;-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;}
+.page p label{font-size:12px; display:block;}
+.btn_nav{height:36px; line-height:36px; margin:20px auto; width:200px}
+.prev,.next{width:80px; height:32px; line-height:32px; border:1px solid #d3d3d3; cursor:pointer}
+.txtfff{width:200px; height:25px;font-size: 12px;background-color:#ffffff;color:#ffffff;border:0px solid #7F4F20;}
+.txtttt{color:#d3d3d3 }
+#acctable, #acctable2{
+	margin-top: 20px;
+}
+#acctable, #acctable2 tr{
+	padding：10px 0px;
+}

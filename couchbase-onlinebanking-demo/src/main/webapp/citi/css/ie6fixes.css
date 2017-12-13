@@ -1,0 +1,218 @@
+﻿/* Brand Version="Version 1.2" */
+@charset "UTF-8";
+
+h3,
+h4 {
+	font-weight:700;
+}
+
+#content .download_box .search_wrapper {
+	display: inline;
+	margin-right: 7px;
+}
+
+.login_button {
+		background:url("../images/assets/images2/btn/login_button.jpg") no-repeat 0 0 !important;
+		background-position:0 0px;
+		height:28px;
+		margin-top:10px;	
+		width:71px;
+	}
+.login_button:hover {
+	background-position:0 -32px !important;
+}
+#content .shadow_block .col_1 p {
+    font-size: 13px !important;
+    line-height: 1.3em;
+}
+
+#mini-panel-2_1_8_Corporate_Signage .panel-col-first{
+	width:35% !important;
+}
+/* 4. Rounded Box
+ ============================================================ */
+	.rounded_box, .rounded_box .content {
+		position:relative;
+	}
+	/*
+	#header .rounded_box #center, #header .rounded_box #left, #header .rounded_box #right {
+		position: relative;
+	}
+	*/
+	
+	#header .rounded_box #center_cont {
+		margin-left: 0px !important;
+	/*	position: relative;*/
+	}
+	
+
+/* 5. Header
+============================================================ */
+	#header .top_bar {
+		
+	}
+	#header .logo { overflow:hidden; position:relative; }
+	#header .main_menu {
+	}
+		#header .main_menu li {
+			height:32px;
+			padding-top:2px;
+			position:relative;
+		}
+			#header .main_menu li a {
+				padding:8px 15px;
+			}
+		#header .main_menu li.current {
+			background-position:0 -35px;
+		}
+			#header .main_menu li.current a {
+			}
+		#header .main_menu li.current.first-child {
+			background-position:1px 0px;
+		}
+		
+		#header .main_menu .drop-menu {
+			top:34px!important;
+			white-space:nowrap;
+		}
+			#header .main_menu .drop-menu li {
+				height:13px;
+			}
+			/*
+	#header .search_wrapper {
+		width:182px;
+	}
+		#header .search input.text {
+			width:148px;
+		}
+	*/	
+	.li_first_hover {
+		padding-left:1px!important;
+	}
+	.anchor_hover {
+		background:#FFF!important;
+		border-color: #CDCDCD!important;
+		color:#666!important;
+		z-index:3!important;
+	}
+	.first_anchor_hover {
+		border-left:1px solid #CDCDCD!important;
+		padding-left:26px!important;
+	}
+
+
+/* 7. Columns layout
+============================================================ */
+	.col_1 {
+		padding-left:20px;
+	}
+	.col_2 {
+		overflow-y:visible;
+		position:relative;
+	}
+
+/* 7.4. My Cart View
+	------------------------------------------------------------- */
+		
+	.my_cart_view #content .rounded_box .content {
+		height: 1%;
+	}
+	
+/* 8.5. Grid List
+	------------------------------------------------------------- */
+
+	#content .grid_item img {
+		top:35px;
+	}
+
+/* 8.6. Grid Small List
+	------------------------------------------------------------- */
+		
+	.grid_small_view #content .rounded_box .content {
+		height:40px;
+	}
+		.grid_small_view #content .grid_item h3 {
+			
+		}
+		
+/* 8.9. Download Cart Content
+	------------------------------------------------------------- */
+		
+	#content .search_wrapper {
+		width: 220px;
+	}
+
+/* 9. Gallery
+============================================================ */	
+	#gallery .image_holder li {
+		width: 530px;
+	}
+
+#gallery .pager .pager_content {
+	margin: 0 5px 0px 1px !important;
+}
+/* 10.3. Inputs
+	------------------------------------------------------------- */
+	.form-submit {
+		font-size:0;
+		line-height:0;
+	}
+	input.button,
+	input.form-submit {
+		color:#fff;
+		font-size:0;
+		line-height:0;
+		text-align:right!important;
+		text-indent:-5000px;
+	}
+	.button {
+		padding-right:7px;
+	}
+	
+	
+/* 15. My brand central view
+============================================================ */
+
+	#discussions_box h3{
+		margin-bottom:15px;
+	}
+
+/* Modal Discussions
+============================================================ */
+
+	.modalframe-page-content input.button {
+		background-color:#0f0;
+		display:block;
+	}
+	
+	.overlay .register,
+	.overlay .forgot_pasword,
+	.overlay .approval,
+	.overlay .request_confirmation {
+			background: url(../assets/images2/bg/overlayTBie6.gif) no-repeat left top !important;	
+	}
+	
+	.overlay .end_div {
+		background: url(../assets/images2/bg/overlayTBie6.gif) no-repeat left bottom !important;
+	}
+	
+#sb-info{
+		top:45px!important;
+	}
+.sidebars #content .col_1{
+	padding-left:15px;
+}
+.sidebars #content #block-generic-5{
+	padding-left:7px;
+}
+
+#block-generic-9 .links_list {
+	position:relative;
+}
+
+.col_2 .col_central .clear-block{
+	/*width:98%;*/
+	margin-left: 25px;
+}
+/* CBC-46 */
+#gallery .pager .pager_content { margin:0; }

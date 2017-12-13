@@ -1,0 +1,101 @@
+﻿/* Brand Version="Version 1.2" */
+@charset "UTF-8";
+
+/* 5. Header
+============================================================ */
+
+#header .main_menu {
+}
+	#header .main_menu .drop-menu {
+		top:122px!important;
+	}
+a{
+    /*color:#00BDF2;#53565A;*/
+	/* *color:#00BDF2; /*#53565A;*/
+    /*color:#3399CC;*/
+    text-decoration:none;
+}
+
+
+#header .selectlanguage .lan{
+	text-decoration: none;	
+}
+#header H1.logo{
+   height: 62px;
+}
+
+#header .main_menu{
+	margin-left: 26px;
+	padding-left: 0px;
+}
+
+a.btn_pcta{
+	background: none repeat scroll 0 0 #00bdf2;
+}
+a.btn_pcta:link{
+	background: none repeat scroll 0 0 #00bdf2;
+}
+a.btn_pcta:hover{
+	background: none repeat scroll 0 0 #008CE6;
+}
+
+.copyrighttext{
+    margin-top: -18px;
+}
+
+#slider_panel{
+    margin-top: 0px;
+}
+/*
+#header .main_menu ul.drop-menu li a:link {
+    color:#595959 ;
+    display:block;
+    height: 20px;
+    width: auto;
+}
+
+#header .main_menu ul.drop-menu li a.haschild {
+    color:#595959 ;
+    background: url("../images/global_left_arrow.png") no-repeat scroll 125px 6px transparent;
+    display:block;
+    height: 20px;
+    width: 200px;
+}
+#header .main_menu ul.drop-menu li a:hover {
+    color:#008CE6;
+    display:block;
+    height: 20px;
+    width: 200px;
+    
+}
+#header .main_menu ul.drop-menu li a.haschild:hover {
+    color:#008CE6;
+    display:block;
+    background: url("../images/global_left_arrow_over.png") no-repeat scroll 125px 6px transparent;
+    height: 20px;
+    width: 200px;
+}
+*/
+.facebookModal_desc{
+    margin-left: 48px;
+}
+
+#div_facebook_close{
+    left: 360px;
+}
+
+.main_menu li.second a.dropdown{
+    background: url("../images/global_drop_icon.png") no-repeat scroll right 7px transparent;
+}
+
+.main_menu li ul.drop-menu {
+    /*background: url("../images/global_draw1.png") no-repeat scroll 0 0 transparent;*/
+    /*border:1px solid #CDCDCD;
+    display:none;*/
+    padding-top:15px;
+    position:absolute;
+    top:129px;
+	width:204px;
+    z-index:999;
+	margin: 0 0 0 -15px;
+}
